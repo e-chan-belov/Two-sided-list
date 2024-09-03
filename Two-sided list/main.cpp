@@ -1,14 +1,16 @@
-//
-//  main.cpp
-//  Two-sided list
-//
-//  Created by Белов Егор on 03.09.2024.
-//
-
+#include "Header.h"
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    List<int> a(3);
+    
+    a[0] = 1;
+    a[1] = 2;
+    a[2] = 3;
+    
+    List<int> b(a);
+    
+    std::cout << a[2] << std::endl;
+    
     return 0;
 }

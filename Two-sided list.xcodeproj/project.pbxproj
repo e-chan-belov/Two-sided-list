@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13B619922C87338B00CF5FCC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13B619912C87338B00CF5FCC /* main.cpp */; };
+		13B619992C87343E00CF5FCC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13B619982C87343E00CF5FCC /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		13B6198E2C87338B00CF5FCC /* Two-sided list */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Two-sided list"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B619912C87338B00CF5FCC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13B619982C87343E00CF5FCC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13B6199B2C87348400CF5FCC /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +58,8 @@
 		13B619902C87338B00CF5FCC /* Two-sided list */ = {
 			isa = PBXGroup;
 			children = (
-				13B619912C87338B00CF5FCC /* main.cpp */,
+				13B619982C87343E00CF5FCC /* main.cpp */,
+				13B6199B2C87348400CF5FCC /* Header.h */,
 			);
 			path = "Two-sided list";
 			sourceTree = "<group>";
@@ -119,7 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B619922C87338B00CF5FCC /* main.cpp in Sources */,
+				13B619992C87343E00CF5FCC /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
